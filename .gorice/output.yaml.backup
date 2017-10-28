@@ -1,0 +1,42 @@
+configs:
+
+    i3/adwaita.yaml:
+        background: "#241434"
+        foreground: "#23EFDC"
+        colors:
+            - "#AFDCE4"
+            - "#27FCFD"
+            - "#3AF278"
+            - "#8039A0"
+            - "#F203f0"
+            - "#FF5B6C"
+            - "#FFFE5D"
+            - "#000000"
+
+
+    i3/neon.yaml:
+        background: "#241434"
+        foreground: "#23EFDC"
+        colors:
+            - "#AFDCE4"
+            - "#27FCFD"
+            - "#3AF278"
+            - "#8039A0"
+            - "#F203f0"
+            - "#FF5B6C"
+            - "#FFFE5D"
+            - "#000000"
+
+
+ i3/darker.yaml:
+	    background: "#241434"
+        foreground: "#23EFDC"
+        colors:
+            - "#A2D9B1"
+            - "#27FCFD"
+            - "#3AF278"
+            - "#76E5AE"
+            - "#A89ED1"
+            - "#FF5B6C"
+            - "#87A1C7"
+            - "#76B5E5"
