@@ -1,0 +1,118 @@
+x C-S-BackSpace   	openbox --reconfigure
+o C-A-Right       	DesktopRight
+o C-A-Left        	GoToDesktop
+o C-A-Up          	GoToDesktop
+o C-A-Down        	GoToDesktop
+x C-W-KP_8        	rtile.rb --split-up
+x C-W-KP_2        	rtile.rb --split-down
+x C-W-KP_4        	rtile.rb --split-left
+x C-W-KP_6        	rtile.rb --split-right
+x C-W-KP_0        	rtile.rb --swap
+x C-W-KP_5        	rtile.rb --next-monitor
+x S-W-KP_8        	rtile.rb --grow-up
+x S-W-KP_2        	rtile.rb --grow-down
+x S-W-KP_4        	rtile.rb --grow-left
+x S-W-KP_6        	rtile.rb --grow-right
+x S-W-KP_0        	rtile.rb --cycle
+x S-W-KP_5        	rtile.rb --cycle-monitors
+x W-KP_8          	rtile.rb t
+x W-KP_5          	rtile.rb
+x W-KP_2          	rtile.rb b
+x W-KP_7          	rtile.rb tl
+x W-KP_4          	rtile.rb l
+x W-KP_1          	rtile.rb bl
+x W-KP_9          	rtile.rb tr
+x W-KP_6          	rtile.rb r
+x W-KP_3          	rtile.rb br
+x W-KP_0          	rtile.rb --binary
+o A-Tab           	NextWindow
+o A-S-Tab         	PreviousWindow
+o W-S-Right       	DirectionalCycleWindows
+o W-S-Left        	DirectionalCycleWindows
+o W-S-Up          	DirectionalCycleWindows
+o W-S-Down        	DirectionalCycleWindows
+o S-A-Left        	SendToDesktopLeft
+o S-A-Right       	SendToDesktopRight
+o S-A-Up          	SendToDesktopUp
+o S-A-Down        	SendToDesktopDown
+o A-Escape        	Lower
+o A-space         	client-menu
+x XF86AudioRaiseVolume	amixer -D pulse sset Master '5%+'
+x XF86AudioLowerVolume	amixer -D pulse sset Master '5%-'
+x XF86AudioMute   	amixer -D pulse set Master toggle
+x XF86AudioStop   	playerctl pause
+x XF86AudioPlay   	playerctl play-pause
+x XF86AudioPrev   	playerctl previous
+x XF86AudioNext   	playerctl next
+x XF86MonBrightnessUp	xbacklight +10
+x XF86MonBrightnessDown	xbacklight -10
+x Print           	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'
+x A-Print         	scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'
+x C-Print         	xfce4-screenshooter
+x A-F2            	rofi -m -2  -i -p -modi drun,run,colorscheme:rofi-colorscheme-switch,keys,ssh,combi -show run
+x A-F3            	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+x W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+o A-F4            	Close
+o A-F5            	Iconify
+o A-F6            	ToggleMaximize
+o A-F8            	ToggleDecorations
+o W-d             	ToggleShowDesktop
+o W-b             	ToggleDecorations
+x W-f             	thunar
+x W-t             	termite
+x W-w             	xdotool search --name polybar-default_eDP-1 behave %@ mouse-leave exec --sync "$XDG_CONFIG_HOME"/polybar/autohide hide
+
+x W-l             	slimlock
+x W-e             	xdotool search --name polybar-default_eDP-1 behave %@ mouse-enter exec --sync "$XDG_CONFIG_HOME"/polybar/autohide show
+x W-m             	gksu /bin/mbmain
+x W-h             	urxvt -T 'htop task manager' -e htop
+x W-v             	pavucontrol
+x W-x             	oblogout
+x W-Escape        	xkill
+o W-Tab           	client-list-combined-menu
+o W-space         	root-menu
+o W-Right         	UnmaximizeFull
+o W-Left          	UnmaximizeFull
+o W-Up            	MaximizeFull
+o W-Down          	UnmaximizeFull
+o W-A-Left        	UnmaximizeFull
+o W-A-Right       	UnmaximizeFull
+o A-r             	Resize
+o A-m             	Move
+x A-t             	variety -t
+x A-f             	variety -f
+x A-p             	variety -p
+x A-Left          	variety -p
+x A-n             	variety -n
+x A-Right         	variety -n
+x W-g             	rofi-bangs.sh
+x A-z             	blur
+x W-Pause         	oblogout
+o S-W-q           	Close
+x W-Return        	xfce4-terminal
+x S-W-Return      	thunar
+x W-F1            	vivaldi-snapshot
+x W-F2            	atom
+x                 	inkscape
+x W-F4            	gimp
+x                 	rofi
+x W-F6            	vlc
+x W-F7            	virtualbox
+x W-F8            	thunar
+x                 	evolution
+x                 	spotify
+x C-S-Escape      	xfce4-taskmanager
+o C-A-q           	root-menu
+x C-A-m           	xfce4-settings-manager
+x C-A-k           	obkey
+x C-A-a           	xfce4-appfinder
+x C-A-T           	termite
+o C-A-d           	ToggleShowDesktop
+x C-A-V           	vivaldi-snapshot
+x C-A-B           	thunar
+x C-A-W           	subl3
+x C-A-S           	spotify
+x C-A-C           	catfish
+x C-A-i           	nitrogen
+x C-A-u           	obconf
+x W-F3            	rofi -show run

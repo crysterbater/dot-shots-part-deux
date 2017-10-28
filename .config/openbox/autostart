@@ -1,0 +1,54 @@
+mconnect -d &
+
+LAUNCH_LIST = [
+	 ("Enable super key to launch Rofi","ksuperkey -e 'Super_L=Alt_L|F1'","0","*"),
+	 ("Enable window snapping","opensnap --daemon -c /etc/opensnap","0","*"),
+	 ("Turn on numlock","numlockx","0","*"),
+	 ("Enable skippy-xd window switcher","skippy-xd --config $HOME/.config/skippy-xd/skippy-xd.rc --start-daemon","1","*"),
+	 ("Start thunar in the background","thunar --daemon","2","*"),
+
+# panel
+$HOME/.config/polybar/scripts/launch.sh &
+al-tint2-session &
+sleep 1; launch-polybar &
+
+# launch compton
+al-compositor --start &
+
+# laptops without a numpad may want to comment this out
+numlockx &
+
+#** GNOME PolicyKit authentication **
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# thunar and bookmarks
+#(sleep 1; thunar --daemon) &
+(sleep 1; xdg-user-dirs-gtk-update) &
+
+# wallpaper
+(sleep 1; nitrogen --restore) &
+
+# xfce settings
+xfce4-power-manager &
+
+# polybar
+(sleep 1; polybar --config=$HOME/.config/polybar/cng-config main &
+#(sleep 1; polybar --config=$HOME/.config/polybar/pepperg-config top) &
+
+# systray
+(sleep 1; volumeicon) &
+(sleep 2; nm-applet) &
+
+dunst &
+#(sleep 2; temps) &
+#redshift-gtk &
+
+# skippy
+(sleep 2; skippy-xd --config $HOME/.config/skippy-xd/skippy-xd.rc --start-daemon) &
+skippy-xd --start-daemon
+
+# rofi
+(sleep 2; clipster --daemon) &
+
+(sleep 2; greenclip daemon) &
+(sleep 2; skippy-xd --config $HOME/.config/skippy-xd/skippy-xd.rc --start-daemon) &
