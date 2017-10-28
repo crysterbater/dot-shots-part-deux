@@ -41,7 +41,7 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>midnightish</name>
+    <name>MINT</name>
     <titleLayout>DSLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
