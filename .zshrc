@@ -2,6 +2,7 @@ source /home/pringle/antigen.zsh
 source $HOME/.dynamic-colors/completions/dynamic-colors.zsh
 
 export PATH="$HOME/.dynamic-colors/bin:$PATH"
+export TENDERBLOCKS="~/.local/share/bartender/block"
 
 set -o vi
 
@@ -129,6 +130,8 @@ alias xr="xrdb ~/.Xresources"
 alias reload="exec $SHELL -l"
 alias menu=powermenu.sh
 alias .="cd /home/pringle"
+alias play="ncmpcpp -S visualizer"
+alias push="yadm push -u origin master"
 
 LS_COLORS=$(ls_colors_generator)
 
