@@ -20,40 +20,37 @@ browser = xdg-open
 filter_unmatched_urls = true
 
 [colors]
-# special
-foreground      = #ffffff
-foreground_bold = #ffffff
-cursor          = #ffffff
-background      = rgba(18,20,23,0.90)
+background      = rgba(14,14,17,0.95)
+foreground      = #ccccce
+foreground_bold = #ccccce
+cursor          = #ccccce
 
-# black
-color0  = #032c36
-color8  = #2e3340
+# Black, Gray, Silver, White
+color0  = #282828
+color8  = #98218e
+color7  = #ebdbb2
+color15 = #ccccce
 
-# red
-color1  = #45c2ad
-color9  = #ff4172
+# Red
+color1  = #ca1444
+color9  = #ca1444
 
-# green
-color2  = #7cbf9e
-color10 = #45c2ad
+# Green
+color2  = #789aba
+color10 = #789aba
 
-# yellow
-color3  = #63698a
-color11 = #61778d
+# Yellow
+color3  = #94469b
+color11 = #94469b
 
-# blue
-color4  = #c2454e
-color12 = #99a7ff
+# Blue
+color4  = #cb6fa1
+color12 = #cb6fa1
 
-# magenta
-color5  = #ef4787
-color13 = #ff99a1
+# Purple
+color5  = #fb6e93
+color13 = #fb6e93
 
-# cyan
-color6  = #44b5b1
-color14 = #9ed9d8
-
-# white
-color7  = #b9d7f2
-color15 = #ffffff
+# Teal
+color6  = #cf98c1
+color14 = #cf98c1

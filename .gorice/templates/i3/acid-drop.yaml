@@ -1,12 +1,12 @@
 # background and foreground MUST exist and MUST be hex color values
 # names cannot contain '-'
 terminal:
-    background: "#0e0e11"
-    foreground: "#ccccce"
-    bold: "#ccccce"
-    termbackground: "rgba(14,14,17,0.95)"
-    font: "Anonymice Nerd Font 10"
-    colors: ["#282828", "#ca1444", "#789aba", "#94469b", "#cb6fa1", "#fb6e93", "#cf98c1", "#98218e", "#ebdbb2"]
+    background: "#444444"
+    foreground: "#EFEFEC"
+    bold: "#EFEFEC"
+    termbackground: "rgba(68,68,68,0.80)"
+    font: "Ubuntu Mono Nerd Font 10"
+    colors: ["#212121", "#D50000", "#00C853", "#00B8D4", "#C6FF00", "#1DE9B6", "#AA00FF", "#BDBDBD", "#EEEEEE"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
 
 border:
@@ -14,7 +14,7 @@ border:
     all: 0
     top: 0
     bottom: 0
-    color: "#00000000"
+    color: "#444444"
 
 
 gap:
@@ -23,9 +23,13 @@ gap:
 
 
 bar:
-    height: 20
+    height: 22
     width: "100%"
-    radius: 0
+    radius: 3
     bottom: "false"
-    background: "#e10d0d1b"
+    background: "#e1444444"
     font0: "xos4 Terminus:size=12:antialias=false;2"
+
+
+wallpaper:
+    saved: "/usr/share/backgrounds/surfin.jpg"

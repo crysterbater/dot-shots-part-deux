@@ -26,4 +26,4 @@ rofi.kb-mode-previous:               Shift+Left,Control+Shift+Tab,Alt+h
 rofi.kb-row-up:                      Up,Control+p,Shift+Tab,Shift+ISO_Left_Tab,Alt+k
 rofi.kb-row-down:                    Down,Control+n,Alt+j
 -modi colorscheme:rofi-colorscheme-switch
-rofi.theme: /usr/share/rofi/themes//midnight01.rasi
+rofi.theme: /usr/share/rofi/themes//123.rasi

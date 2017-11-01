@@ -251,6 +251,11 @@
           <command>lxappearance</command>
         </action>
       </item>
+      <item label="Set Wallpaper">
+        <action name="Execute">
+          <command>nitrogen</command>
+        </action>
+      </item>
       <item label="Compton GUI">
         <action name="Execute">
           <command>paranoid.py</command>
@@ -271,9 +276,9 @@
           <command>rofi -modi colorscheme:rofi-colorscheme-switch  -show colorscheme:rofi-colorscheme-switch</command>
         </action>
       </item>
-           <item label="Polybar">
+           <item label="Save Theme Setup">
         <action name="Execute">
-          <command>/home/pringle/.config/polybar/reload</command>
+          <command>bl-obthemes</command>
         </action>
       </item>
           <separator/>

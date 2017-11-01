@@ -46,7 +46,7 @@ inherit = bar/master
 monitor = eDP1
 monitor-strict = false
 
-modules-left = xworkspaces rofi menu config
+modules-left = xworkspaces rofi powermenu config
 modules-center = window_count
 modules-right = pkg network keyboard volume clock
 
@@ -59,7 +59,7 @@ monitor-strict = false
 
 modules-left = xworkspaces config
 modules-center = window_count
-modules-right = memory temp coreuse
+modules-right = memory temp coreuse powermenu
 
 
 ;;;;;; Tray is commented out ;;;;;;;;

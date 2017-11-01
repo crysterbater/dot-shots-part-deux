@@ -7,7 +7,7 @@ allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = true
-font = Anonymice Nerd Font 10
+font = {{.Data.terminal_font}}
 scrollback_lines = 10000
 search_wrap = true
 icon_name = utilities-terminal
@@ -20,37 +20,37 @@ browser = xdg-open
 filter_unmatched_urls = true
 
 [colors]
-background = rgba(35,30,53,0.80)
-foreground      = #23EFDC
-foreground_bold = #23EFDC
-cursor          = #23EFDC
+background      = {{.Data.terminal_termbackground}}
+foreground      = {{.Data.terminal_foreground}}
+foreground_bold = {{.Data.terminal_bold}}
+cursor          = {{.Data.terminal_foreground}}
 
 # Black, Gray, Silver, White
-color0  = #241434
-color8  = #1CA4CE
-color7  = #030116
-color15 = #AFDCE4
+color0  = {{index .Data.terminal_colors 0}}
+color8  = {{index .Data.terminal_colors 7}}
+color7  = {{index .Data.terminal_colors 8}}
+color15 = {{.Data.terminal_foreground}}
 
 # Red
-color1  = #FF5B6C
-color9  = #FF5B6C
+color1  = {{index .Data.terminal_colors 1}}
+color9  = {{index .Data.terminal_colors 1}}
 
 # Green
-color2  = #3AF278
-color10 = #3AF278
+color2  = {{index .Data.terminal_colors 2}}
+color10 = {{index .Data.terminal_colors 2}}
 
 # Yellow
-color3  = #FFFE5D
-color11 = #FFFE5D
+color3  = {{index .Data.terminal_colors 3}}
+color11 = {{index .Data.terminal_colors 3}}
 
 # Blue
-color4  = #27FCFD
-color12 = #27FCFD
+color4  = {{index .Data.terminal_colors 4}}
+color12 = {{index .Data.terminal_colors 4}}
 
 # Purple
-color5  = #8039A0
-color13 = #8039A0
+color5  = {{index .Data.terminal_colors 5}}
+color13 = {{index .Data.terminal_colors 5}}
 
 # Teal
-color6  = #F203F0
-color14 = #F203F0
+color6  = {{index .Data.terminal_colors 6}}
+color14 = {{index .Data.terminal_colors 6}}

@@ -1,12 +1,12 @@
 # background and foreground MUST exist and MUST be hex color values
 # names cannot contain '-'
 terminal:
-    background: "#0e0e11"
-    foreground: "#ccccce"
-    bold: "#ccccce"
-    termbackground: "rgba(14,14,17,0.95)"
-    font: "Anonymice Nerd Font 10"
-    colors: ["#282828", "#ca1444", "#789aba", "#94469b", "#cb6fa1", "#fb6e93", "#cf98c1", "#98218e", "#ebdbb2"]
+    background: "#231E35"
+    foreground: "#27FCFD"
+    bold: "#A9A9A9"
+    termbackground: "rgba(35,30,53,0.80)"
+    font: "Ubuntu Mono Nerd Font 10"
+    colors: ["#231e35", "#F20390", "#1CE190", "#FDEE7B", "#27FCFD", "#8039A0", "#AFDCE4", "#969896", "#902049"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
 
 border:
@@ -14,7 +14,7 @@ border:
     all: 0
     top: 0
     bottom: 0
-    color: "#00000000"
+    color: "#27FCFD"
 
 
 gap:
@@ -23,9 +23,13 @@ gap:
 
 
 bar:
-    height: 20
+    height: 22
     width: "100%"
     radius: 0
     bottom: "false"
-    background: "#e10d0d1b"
+    background: "#231e35"
     font0: "xos4 Terminus:size=12:antialias=false;2"
+
+
+wallpaper:
+    saved: "/usr/share/backgrounds/neon-city.jpg"

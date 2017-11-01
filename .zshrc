@@ -123,15 +123,56 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias gori='cd /home/pringle/.gorice'
 alias grep='grep --color'
-alias -g G='| grep' # now you can do: ls foo G something
+alias kp='killall polybar'
 alias xm="xrdb -merge ~/.Xresources"
 alias xr="xrdb ~/.Xresources"
 alias reload="exec $SHELL -l"
-alias menu=powermenu.sh
+alias got='gorice tracked i3'
+alias goadd='gorice track i3'
 alias .="cd /home/pringle"
 alias play="ncmpcpp -S visualizer"
+
+
+# -------------------------------------------------------------------
+# Git
+# -------------------------------------------------------------------
+alias ga='git add'
+alias gp='git push'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpu='git pull'
+alias gcl='git clone'
+alias gta='git tag -a -m'
+alias gf='git reflog'
+
+# -------------------------------------------------------------------
+# YADM
+# -------------------------------------------------------------------
+alias ya='yadm add'
 alias push="yadm push -u origin master"
+alias yl='yadm log'
+alias ys='yadm status'
+alias yd='yadm diff'
+alias ym='yadm commit -m'
+alias yma='yadm commit -am'
+alias yb='yadm branch'
+alias yc='yadm checkout'
+alias yra='yadm remote add'
+alias yrr='yadm remote rm'
+alias ypu='yadm pull'
+alias ycl='yadm clone'
+alias yta='yadm tag -a -m'
+alias yf='yadm reflog'
+
 
 LS_COLORS=$(ls_colors_generator)
 

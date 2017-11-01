@@ -41,7 +41,7 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>MINT</name>
+    <name>MINT (copy 1)</name>
     <titleLayout>DSLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -289,7 +289,7 @@
     <keybind key="C-A-V"><action name="Execute"><command>vivaldi-snapshot</command><prompt>C-A-V</prompt></action></keybind>
     <keybind key="C-A-B"><action name="Execute"><command>thunar</command></action></keybind>
     <keybind key="C-A-W"><action name="Execute"><command>subl3</command></action></keybind>
-    <keybind key="C-A-S"><action name="Execute"><command>spotify</command></action></keybind>
+    <keybind key="C-d"><action name="Execute"><command>xfce4-terminal --drop-down</command></action></keybind>
     <keybind key="C-A-C"><action name="Execute"><command>catfish</command></action></keybind>
     <keybind key="C-A-i"><action name="Execute"><command>nitrogen</command></action></keybind>
     <keybind key="C-A-u"><action name="Execute"><command>obconf</command></action></keybind>
