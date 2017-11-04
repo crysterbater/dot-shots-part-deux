@@ -51,17 +51,19 @@
 </action>
 <action>
 	<icon>/home/pringle/Documents/I C O N S/Thunar/1509494724723.jpg</icon>
-	<name>clipboard</name>
-	<unique-id>1509495081069658-2</unique-id>
+	<name>Copy Current Path</name>
+	<unique-id>1509528296775333-7</unique-id>
 	<command>echo -n %f | xclip -selection &quot;clipboard&quot;</command>
 	<description></description>
 	<upper>-1</upper>
 	<lower>-1</lower>
 	<patterns>*</patterns>
 	<directories/>
+	<audio-files/>
 	<image-files/>
 	<other-files/>
 	<text-files/>
+	<video-files/>
 </action>
 <action>
 	<icon></icon>
@@ -100,9 +102,44 @@
 </action>
 <action>
 	<icon></icon>
-	<name>chmod +x</name>
-	<unique-id>1509444916257915-3</unique-id>
+	<name>Make Executible</name>
+	<unique-id>1509528272188603-6</unique-id>
 	<command>chmod +x %F</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Convert to MP3</name>
+	<unique-id>1509528196064920-5</unique-id>
+	<command>ffmpeg -i %f %f.mp3</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<other-files/>
+	<video-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>upload to imgur</name>
+	<unique-id>1509804203225955-4</unique-id>
+	<command>thunar-upload-to-imgur.sh -f %f</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>upload to pastebin</name>
+	<unique-id>1509804195926711-3</unique-id>
+	<command>thunar-paste-to-pastebin.sh -f %f</command>
 	<description></description>
 	<upper>-1</upper>
 	<lower>-1</lower>

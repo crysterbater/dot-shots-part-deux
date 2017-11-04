@@ -1,12 +1,12 @@
 # background and foreground MUST exist and MUST be hex color values
 # names cannot contain '-'
 terminal:
-    background: "#444444"
+    background: "#051519"
     foreground: "#EFEFEC"
     bold: "#EFEFEC"
-    termbackground: "rgba(68,68,68,0.80)"
+    termbackground: "rgba(24,24,31,0.90)"
     font: "Ubuntu Mono Nerd Font 10"
-    colors: ["#212121", "#D50000", "#00C853", "#00B8D4", "#C6FF00", "#1DE9B6", "#AA00FF", "#BDBDBD", "#EEEEEE"]
+    colors: ["#11121F", "#fb3d66", "#7CFD9E", "#FD807C", "#00A2B7", "#A2A7FB", "#5FAFF9", "#FB6E93", "#EEEEEE"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
 
 border:
@@ -23,12 +23,12 @@ gap:
 
 
 bar:
-    height: 22
+    height: 30
     width: "100%"
     radius: 3
     bottom: "false"
-    background: "#e1444444"
-    font0: "xos4 Terminus:size=12:antialias=false;2"
+    background: "#e1141E21"
+    font0: "NeoGram:size=9:weight=light;antialias=false;2"
 
 
 wallpaper:

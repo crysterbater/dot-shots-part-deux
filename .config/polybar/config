@@ -46,9 +46,9 @@ inherit = bar/master
 monitor = eDP1
 monitor-strict = false
 
-modules-left = config xworkspaces rofi menu
-modules-center = window_count
-modules-right = pkg network keyboard volume clock
+modules-left = config powermenu
+modules-center = ewmh
+modules-right = mpd window_count keyboard volume clock rofi
 
 
 [bar/bar3]

@@ -6,7 +6,7 @@ terminal:
     bold: "#4c5068"
     term-background: "rgba(18,20,23,0.90)"
     font: "Anonymice Nerd Font 10"
-    colors: ["#181B21", "#EE79A9", "#85678F", "#DE935F", "#9999ff", "#85678F", "#ED5181", "#969CD3", "#ED5181"]
+    colors: ["#181B21", "#006699", "#A43261", "#007086", "#6751A6", "#913E88", "#0061B1", "#333366", "#ED5181"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
 
 border:
@@ -23,9 +23,9 @@ gap:
 
 
 bar:
-    height: 24
+    height: 30
     width: "100%"
     radius: 0
     bottom: "false"
     background: "#e1121417"
-    font0: "xos4 Terminus:size=12:antialias=false;2"
+    font0: "VCR OSD Mono:size=8:antialias=false;2"

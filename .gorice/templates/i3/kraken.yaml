@@ -1,12 +1,12 @@
 # background and foreground MUST exist and MUST be hex color values
 # names cannot contain '-'
 terminal:
-    background: "#404552"
+    background: "#181E22"
     foreground: "#c5c8c6"
-    bold: "#A9A9A9"
-    termbackground: "rgba(64,69,82,0.80)"
+    bold: "#90FCAF"
+    termbackground: "rgba(24,30,34,0.96)"
     font: "Anonymice Nerd Font 10"
-    colors: ["#3f3f3f", "#705050", "#E4B928", "#F0DFAF", "#506070", "#DC8CC3", "#298FEA", "#DCDCCC", "#F6F6F6"]
+    colors: ["#1A1E22", "#B3FCC2", "#7ACEEF", "#90FCAF", "#B3F6FC", "#B3FCCC", "#B2D3F7", "#B3FCCF", "#f1f1f1"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
 
 border:
@@ -23,9 +23,9 @@ gap:
 
 
 bar:
-    height: 20
+    height: 30
     width: "100%"
     radius: 0
     bottom: "false"
-    background: "#404552"
-    font0: "xos4 Terminus:size=12:antialias=false;2"
+    background: "#131517"
+    font0: "xos4 Terminus:size=8:antialias=false;2"
