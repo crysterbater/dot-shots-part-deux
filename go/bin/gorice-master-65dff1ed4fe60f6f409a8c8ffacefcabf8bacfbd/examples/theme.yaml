@@ -1,0 +1,24 @@
+terminal:
+    background: &bg "#121317"
+    colors: [&trim "#80a93b", "#8caa55", "#87a982", "#9dac8b", "#a5a057", "#9aa96e", "#aa9a94", &fg "#c2bca3"]
+    bold: ["#a5db4c", "#b5dc6e", "#aedba8", "#cadeb3", "#d7d071", "#c7db8e", "#dcc7bf", "#f4eccd"]
+
+
+border:
+    active_color: *fg
+    inactive_color: *bg
+    pixels: 2
+
+gaps:
+    inner: 25
+    outer: 0
+
+bar:
+    bottom: "false"
+    trim: *trim
+
+
+conky: *trim
+background: "/home/steven/images/wallpapers/wallhaven-299649.jpg"
+use_bar: "1"
+use_conky: ""
