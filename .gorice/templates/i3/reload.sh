@@ -5,4 +5,4 @@ i3-msg restart
 launch-polybar --reload
 /home/pringle/.config/polybar/scripts/launch-polybar
 sleep 0.5
-notify-send "Config loaded" "i3/kraken.yaml"
+notify-send "Config loaded" "i3/red-baron.yaml"

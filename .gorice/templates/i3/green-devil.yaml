@@ -11,8 +11,8 @@ terminal:
 
 border:
     pixels: 4
-    all: 12
-    top: 8
+    all: 0
+    top: 0
     bottom: 0
     color: "#00000000"
 

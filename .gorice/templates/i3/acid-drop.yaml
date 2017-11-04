@@ -4,9 +4,9 @@ terminal:
     background: "#051519"
     foreground: "#EFEFEC"
     bold: "#EFEFEC"
-    termbackground: "rgba(24,24,31,0.90)"
-    font: "Ubuntu Mono Nerd Font 10"
-    colors: ["#11121F", "#fb3d66", "#7CFD9E", "#FD807C", "#00A2B7", "#A2A7FB", "#5FAFF9", "#FB6E93", "#EEEEEE"]
+    termbackground: "rgba(15,15,18,0.95)"
+    font: "Office Code Pro D Regular 10"
+    colors: ["#11121F", "#fb3d66", "#48B788", "#7D84D8", "#00A2B7", "#A2A7FB", "#5FAFF9", "#FB6E93", "#EEEEEE"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
 
 border:
@@ -25,9 +25,9 @@ gap:
 bar:
     height: 30
     width: "100%"
-    radius: 3
+    radius: 0
     bottom: "false"
-    background: "#e1141E21"
+    background: "#0F0F12"
     font0: "NeoGram:size=9:weight=light;antialias=false;2"
 
 

@@ -6,7 +6,7 @@ terminal:
     bold: "#ffffff"
     termbackground: "rgba(16,16,16,0.95)"
     font: "Anonymice Nerd Font 10"
-    colors: ["#121417", "#EF4787", "#7CBF9E", "#45C2AD", "#C2454E", "#FFABA9", "#FF5B6C", "#B9C5F2", "#EAEAEA"]
+    colors: ["#1D1D29", "#EF4787", "#7CBF9E", "#45C2AD", "#C2454E", "#FFABA9", "#FF5B6C", "#B9C5F2", "#EAEAEA"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
 
 border:
@@ -23,9 +23,9 @@ gap:
 
 
 bar:
-    height: 20
+    height: 30
     width: "100%"
     radius: 0
     bottom: "false"
-    background: "#e1101010"
-    font0: "xos4 Terminus:size=12:antialias=false;2"
+    background: "#1D1D29"
+    font0: "HK Nova:size=8:weight=Light R;antialias=false;2"
