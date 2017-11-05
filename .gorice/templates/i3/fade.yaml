@@ -28,4 +28,4 @@ bar:
     radius: 0
     bottom: "false"
     background: "#0F1116"
-    font0: "Pilcrow:size=9:weight=regular;antialias=false;2"
+    font0: "SFNS Display:size=8:weight=regular;antialias=false;2"

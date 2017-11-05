@@ -4,9 +4,9 @@ terminal:
     background: "#1C151C"
     foreground: "#F6F6F6"
     bold: "#A9A9A9"
-    termbackground: "rgba(24,28,36,0.90)"
+    termbackground: "rgba(24,28,36,0.95)"
     font: "Anonymice Nerd Font 10"
-    colors: ["#060D14", "#252B39", "#191A1C", "#1B1B1F", "#2D323D", "#0B1019", "#040F12", "#666666", "#F6F6F6"]
+    colors: ["#343440", "#cb85a4", "#67b2b2", "#9EC1D7", "#7894b2", "#9d85cb", "#9baeb1", "#83A4A8", "#D2D2D0"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
 
 border:
@@ -27,5 +27,5 @@ bar:
     width: "100%"
     radius: 0
     bottom: "false"
-    background: "#ED1C151C"
-    font0: "xos4 Terminus:size=12:antialias=false;2"
+    background: "#1d1d29"
+    font0: "Mirai-Medium:size=8:antialias=false;2"

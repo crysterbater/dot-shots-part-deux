@@ -14,7 +14,7 @@ menu.items.bg: Flat Solid
 menu.items.bg.color: #1D1D29
 menu.items.disabled.text.color: #666
 menu.items.text.color: #eee
-menu.border.width: 15
+menu.border.width: 10
 menu.border.color: #1D1D29
 menu.separator.color: #18191a
 menu.title.bg: Solid Flat
