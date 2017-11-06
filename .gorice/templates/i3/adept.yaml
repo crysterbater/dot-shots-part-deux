@@ -1,12 +1,12 @@
 # background and foreground MUST exist and MUST be hex color values
 # names cannot contain '-'
 terminal:
-    background: "#0D1116"
+    background: "#263139"
     foreground: "#ffffff"
     bold: "#c5c8c6"
     termbackground: "rgba(13,17,22,0.98)"
     font: "Hack 10"
-    colors: ["#FF1764", "#FF3377", "#D6477F", "#EB437C", "#E64C8B", "#FF4172", "#E65DB4", "#E6A1CD", "#ffffff"]
+    colors: ["#455867", "#f36f62", "#c5e19c", "#ccb478", "#4c7e89", "#814d61", "#79a69d", "#c4c4b5", "#dbdbd1"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
 
 border:
