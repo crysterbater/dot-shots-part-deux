@@ -2,14 +2,14 @@
 
 
 * {
-	background:                      #0B1012;
-	bordercolor:                     #131317;
+	background:                      #F3F3F3;
+	bordercolor:                     #F3F3F3;
 	separatorcolor:                 rgba ( 0, 96, 160, 93 % );
-	normal-background:               #0B1012;
-	normal-foreground:               #eeeeec;
+	normal-background:               #F3F3F3;
+	normal-foreground:               #556270;
 	alternate-normal-foreground:     #eeeeec;
-	selected-normal-background:      #00AF84;
-	selected-normal-foreground:      #ffffff;
+	selected-normal-background:      #FF5451;
+	selected-normal-foreground:      #D3EEF5;
 	active-background:               #8fa1b3;
 	active-foreground:               #2b303b;
 	alternate-active-background:     #8fa1b3;
@@ -29,11 +29,11 @@
 * {
     spacing:    2;
      padding:    5;
-    border-color: #131317;
+    border-color: #F3F3F3;
     background-color: transparent;
 }
 #window {
-    border:     1;
+    border:     5;
     padding:    5;
     background-color: @background;
 }
@@ -105,7 +105,7 @@
 }
 #sidebar {
     border:       0px solid 0px 0px ;
-    border-color:  #131317;
+    border-color:  #F3F3F3;
 }
 #button selected {
     background-color: @selected-normal-background;

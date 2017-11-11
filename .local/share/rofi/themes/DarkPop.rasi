@@ -2,14 +2,14 @@
 
 
 * {
-	background:                      #131317;
-	bordercolor:                     #131317;
+	background:                      #121419;
+	bordercolor:                     #121419;
 	separatorcolor:                 rgba ( 0, 96, 160, 93 % );
-	normal-background:               #19191F;
+	normal-background:               #121419;
 	normal-foreground:               #eeeeec;
 	alternate-normal-foreground:     #eeeeec;
-	selected-normal-background:      #2FFEC2;
-	selected-normal-foreground:      #181B22;
+	selected-normal-background:      #19A4D4;
+	selected-normal-foreground:      #F1E554;
 	active-background:               #8fa1b3;
 	active-foreground:               #2b303b;
 	alternate-active-background:     #8fa1b3;
@@ -29,7 +29,7 @@
 * {
     spacing:    2;
      padding:    5;
-    border-color: #131317;
+    border-color: #121419;
     background-color: transparent;
 }
 #window {
@@ -105,7 +105,7 @@
 }
 #sidebar {
     border:       0px solid 0px 0px ;
-    border-color:  #131317;
+    border-color:  #121419;
 }
 #button selected {
     background-color: @selected-normal-background;

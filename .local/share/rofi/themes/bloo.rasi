@@ -2,13 +2,13 @@
 
 
 * {
-	background:                      #0B1012;
-	bordercolor:                     #131317;
+	background:                      #191F26;
+	bordercolor:                     #191F26;
 	separatorcolor:                 rgba ( 0, 96, 160, 93 % );
-	normal-background:               #0B1012;
-	normal-foreground:               #eeeeec;
+	normal-background:               #191F26;
+	normal-foreground:               #f1f1f1;
 	alternate-normal-foreground:     #eeeeec;
-	selected-normal-background:      #00AF84;
+	selected-normal-background:      #79CEE2;
 	selected-normal-foreground:      #ffffff;
 	active-background:               #8fa1b3;
 	active-foreground:               #2b303b;
@@ -39,7 +39,7 @@
 }
 #mainbox {
     border:  0;
-    padding: 0;
+    padding: 10;
 }
 #message {
     border:  0px solid 0px 0px ;
@@ -57,6 +57,7 @@
     fixed-height: 0;
     border:       0px solid 0px 0px ;
     padding:      2px 0px 0px ;
+
 }
 #element {
     border: 0;

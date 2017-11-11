@@ -2,10 +2,10 @@
 
 
 * {
-	background:                      #1B1D1D;
-	bordercolor:                     #1B1D1D;
+	background:                      #191F26;
+	bordercolor:                     #191F26;
 	separatorcolor:                 rgba ( 0, 96, 160, 93 % );
-	normal-background:               #1B1D1D;
+	normal-background:               #191F26;
 	normal-foreground:               #f1f1f1;
 	alternate-normal-foreground:     #eeeeec;
 	selected-normal-background:      #90FCAF;
