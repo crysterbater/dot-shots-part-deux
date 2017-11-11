@@ -4,7 +4,7 @@ terminal:
     background: "#1b2126"
     foreground: "#c0c5ce"
     bold: "#c0c5ce"
-    termbackground: "rgba(47,50,67,0.95)"
+    termbackground: "rgba(27,33,38,0.95)"
     font: "Anonymice Nerd Font 10"
     colors: ["#2f3243", "#f58484", "#aff9c6", "#f3f4ab", "#a3d6f7", "#f69dbf", "#aff9f5", "#bacfdc", "#5d737e"]
     # colors  0=black     1=red     2=green   3=yellow    4=blue    5=purple    6=cyan     7=grey     8=white
@@ -28,4 +28,4 @@ bar:
     radius: 0
     bottom: "false"
     background: "#1b2126"
-    font0: "Hack:size=8:antialias=false;2"
+    font0: "Panton:size=8:antialias=false;2"
