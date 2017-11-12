@@ -21,6 +21,11 @@
         <command>xfce4-terminal</command>
       </action>
     </item>
+        <item label="Sublime 3">
+      <action name="Execute">
+        <command>Subl3</command>
+      </action>
+    </item>
     <item label="File Manager">
       <action name="Execute">
         <command>thunar</command>

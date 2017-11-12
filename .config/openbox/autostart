@@ -25,8 +25,11 @@ numlockx &
 # xfce settings
 xfce4-power-manager &
 
+# kde connect
+indicator-kdeconnect &
+
 # polybar
-(sleep 1; polybar --config=$HOME/.config/polybar/cng-config main &
+(sleep 1; /home/pringle/.config/polybar/polybar-chooser &
 #(sleep 1; polybar --config=$HOME/.config/polybar/pepperg-config top) &
 
 # systray
