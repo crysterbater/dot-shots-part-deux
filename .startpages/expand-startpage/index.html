@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>New Tab</title>
+<link rel="stylesheet" href="style.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'> <!-- Downloads the desired font -->
+</head>
+<body>
+<ul class="container">
+        <!-- Start Dropdown -->
+        <li><a class="parent1" href="#">Most Used</a> <!-- Section title -->
+                <ul class="submenu"> <!-- Links Start -->
+                        <li><a class="tab1" href="https://github.com/">GitHub</a></li>
+                        <li><a class="tab1" href="https://plus.google.com/+DuncanPringlePutsOut">Google+</a></li>
+                        <li><a class="tab1" href="https://www.dropbox.com/h">Dropbox</a></li>
+                        <li><a class="tab5" href="https://pastebin.com">Pastebin</a></li>
+                        <li><a class="tab1" href="https://soundcloud.com/stream">SoundCloud</a></li>
+                        <li><a class="tab5" href="https://goo.gl/">URL Shortener</a></li>
+      
+                </ul> <!-- Links End -->
+        </li>
+        <!-- End Dropdown Section -->
+        <li><a class="parent2" href="#">Tech + Linux</a>
+                <ul class="submenu">
+                        <li><a class="tab2" href="https://bbs.archlinux.org/viewforum.php?id=18">ArchLinux Forums</a></li>
+                        <li><a class="tab2" href="https://www.codepen.io">CodePen</a></li>
+                        <li><a class="tab2" href="https://gist.github.com/">Gist</a></li>
+                        <li><a class="tab2" href="http://terminal.sexy/#AAAA____EBAQNY3KQLH_rtTXiJy2gqm5hbPF1tbWsaP-NY3KQLH_rtTXiJy2gqm5hbPF1tbW">terminal.sexy</a></li>
+                        <li><a class="tab2" href="https://www.tapatalk.com/groups/archlabs/index.php">ArchLabs BB</a></li>
+                        <li><a class="tab2" href="https://wiki.archlinux.org/">ArchWiki</a></li>
+                        <li><a class="tab2" href="http://www.stackoverflow.com">Stack Overflow</a></li>
+                        <li><a class="tab2" href="http://dotshare.it/">dotshare.it</a></li>
+                        <li><a class="tab2" href="https://forums.bunsenlabs.org/viewforum.php?id=9">Bunsenlabs Forums</a></li>
+                        
+                </ul>
+        </li>
+        <li><a class="parent3" href="#">Visual</a>
+                <ul class="submenu">
+                        <li><a class="tab4" href="https://coolors.co/c1cfda-20a4f3-59f8e8-941c2f-03191e">coolors.co</a></li>
+                        <li><a class="tab4" href="http://qrohlf.com/trianglify-generator/">Trianglify</a></li>
+                        <li><a class="tab4" href="http://htmlcolorcodes.com/">HTML Color Codes</a></li>
+                        <li><a class="tab4" href="http://colorhunt.co/">Color Hunt</a></li>
+                        <li><a class="tab4" href="http://flatcolors.net/palettes.php">Flat Color Palettes</a></li>
+                </ul>
+        </li>
+        <li><a class="parent3" href="#">Blogs</a>
+                <ul class="submenu">
+                        <li><a class="tab4" href="https://medium.com/">Medium</a></li>
+                        <li><a class="tab4" href="https://designschool.canva.com/blog/brand-color-palette/">DesignSchool</a></li>
+                        <li><a class="tab4" href="https://onextrapixel.com/40-stunning-website-designs-with-great-color-schemes/">onextrapixel</a></li>
+                        <li><a class="tab2" href="https://www.wired.com">Wired US</a></li>
+                        <li><a class="tab4" href="http://blog.visme.co/">Viseme</a></li>
+                        <li><a class="tab4" href="https://designmodo.com/">designmodo</a></li>-->
+                </ul>
+        </li>
+        <li><a class="parent4" href="#">Misc</a>
+                <ul class="submenu">
+                        <li><a class="tab2" href="https://boards.4chan.org/wg/catalog">/wg/ - Wallpapers</a></li>
+                        <li><a class="tab3" href="https://boards.4chan.org/gd/catalog">/gd/ - Graphic Design</a></li>
+                        <li><a class="tab4" href="https://www.reddit.com/r/startpages">r/startpages</a></li>
+                        <li><a class="tab5" href="https://www.reddit.com/r/unixporn">r/unixporn</a></li>
+                        <li><a class="tab6" href="https://deepeeringle.deviantart.com/art/LAB-Firefox-634356902">DeviantArt</a></li>
+                </ul>
+        </li>
+</ul>
+
+<script>
+$('.submenu').hide();
+$("li:has(ul)").click(function(){
+$("ul",this).slideToggle('200');
+});
+</script>
+</body>
+</html>
