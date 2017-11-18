@@ -1,15 +1,15 @@
 rofi.modi:                           window,run,ssh
-rofi.width:                          20
-rofi.lines:                          10
+rofi.width:                          35
+rofi.lines:                          15
 rofi.columns:                        1
-rofi.font:                           pilcrow 10
-rofi.color-normal:                   #22231D, #fefeca, #22231D, #8aaf85, #fefeca
-rofi.color-urgent:                   #22231D, #d6b48d, #22231D, #d6b48d, #fefeca
-rofi.color-active:                   #22231D, #fee07a, #22231D, #fee07a, #22231D
-rofi.color-window:                   #22231D, #8aaf85, #ffffff
-rofi.bw:                             0
+rofi.font:                           FuturaFuturisC 10
+rofi.color-normal:                   #4b4536, #F8FCFF, #4b4536, #729d5d, #F8FCFF
+rofi.color-urgent:                   #4b4536, #d6b48d, #22231D, #d6b48d, #F8FCFF
+rofi.color-active:                   #4b4536, #E8EBEC, #4b4536, #E8EBEC, #4b4536
+rofi.color-window:                   #4b4536, #729d5d, #405834
+rofi.bw:                             7
 rofi.location:                       0
-rofi.padding:                        1
+rofi.padding:                        5
 rofi.yoffset:                        0
 rofi.xoffset:                        0
 rofi.fixed-num-lines:                true
@@ -25,5 +25,4 @@ rofi.kb-mode-next:                   Shift+Right,Control+Tab,Alt+l
 rofi.kb-mode-previous:               Shift+Left,Control+Shift+Tab,Alt+h
 rofi.kb-row-up:                      Up,Control+p,Shift+Tab,Shift+ISO_Left_Tab,Alt+k
 rofi.kb-row-down:                    Down,Control+n,Alt+j
--modi colorscheme:rofi-colorscheme-switch
-rofi.theme: /usr/share/rofi/themes//123.rasi
+rofi.theme: /home/pringle/.local/share//rofi/themes//side.rasi

@@ -24,12 +24,12 @@ MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
-ColorForeground=#ffffffffffff
-ColorBackground=#0c0c0c0c0c0c
-ColorCursor=#ffffffffffff
-ColorPalette=rgb(11,18,25);rgb(235,42,123);rgb(255,85,124);rgb(97,154,226);rgb(252,179,226);rgb(97,226,179);rgb(129,165,199);rgb(233,233,233);rgb(4,5,6);rgb(184,252,179);rgb(235,42,123);rgb(255,85,109);rgb(103,134,199);rgb(253,128,124);rgb(235,42,176);rgb(253,253,253)
-FontName=Office Code Pro D 10
+FontName=Hack 8
 DropdownKeepOpenDefault=TRUE
 DropdownWidth=44
 DropdownHeight=40
+ColorForeground=#d2d2c5c5bcbc
+ColorBackground=#0a0a0d0d1515
+ColorCursor=#d2d2c5c5bcbc
+ColorPalette=rgb(16,30,51);rgb(185,30,95);rgb(233,72,141);rgb(249,187,128);rgb(53,101,121);rgb(84,54,94);rgb(90,106,150);rgb(189,197,218);rgb(96,96,96);rgb(64,177,203);rgb(135,237,164);rgb(250,190,160);rgb(7,57,85);rgb(69,12,119);rgb(233,72,141);rgb(255,240,240)
 

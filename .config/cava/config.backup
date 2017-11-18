@@ -103,8 +103,8 @@ channels = mono
 # or remain commented out. 1 = on, 0 = off. Warning: for certain terminal emulators cava will
 # not able to restore color definitions on exit, simply restart your terminal to restore colors.
 gradient = 1
-gradient_color_1 = '#7777D3'
-gradient_color_2 = '#00ACB0'
+gradient_color_1 = '#445362'
+gradient_color_2 = '#8FB1C5'
 
 
 
