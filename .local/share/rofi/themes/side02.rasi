@@ -11,8 +11,8 @@
 	/* This variables change other elements color
 	 * Change here and it will change over all the
 	 * theme (for an unified experience) */
-	fc-color: #00ACB0;
-	bg-color: #1C2029;
+	fc-color: #FF9C82;
+	bg-color: #0A0D15;
 	fc-color-trans: #39393AC5;
 	bg-color-trans: rgba(10,13,21,0.98);
 
@@ -24,8 +24,8 @@
 /* ================================================= */
 #window {
 	fullscreen:    true;
-	location:      east;
-	anchor:        east;
+	location:      west;
+	anchor:        west;
 	border:        0px 0px 0px 0px;
 	transparency:  "real";
 
@@ -55,14 +55,12 @@
 
 #button {
 	padding:    10px;
-	font:              "Fivo Sans Bold 9";
-	background-color:  #1C2029;
 }
 
 #button selected {
-	font:              "Fivo Sans Bold 9";
-	background-color:  #00ACB0;
-	background-color: #00ACB0;
+	font:              "Graphik Bold 11";
+	background-color:  #FF9C82;
+	background-color: #FF9C82;
 }
 /* ================================================= */
 
@@ -101,8 +99,8 @@
 }
 
 #element selected normal {
-	background-color: #272C38	;
-	text-color: #00ACB0;
+	background-color: #0A0D15	;
+	text-color: #FF9C82;
 }
 
 #element normal active {
