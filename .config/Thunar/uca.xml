@@ -115,6 +115,18 @@
 </action>
 <action>
 	<icon></icon>
+	<name>Paste to Gist</name>
+	<unique-id>1510960624312893-4</unique-id>
+	<command>thunar-paste-to-gist.sh -f %f</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon></icon>
 	<name>Set as Wallpaper</name>
 	<unique-id>1510481437915309-6</unique-id>
 	<command>nitrogen --set-auto %f</command>
@@ -263,5 +275,28 @@
 	<lower>-1</lower>
 	<patterns>*</patterns>
 	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Media Info</name>
+	<unique-id>1510960390735676-1</unique-id>
+	<command>thunar-media-info.sh -f %f -t %n</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<audio-files/>
+	<video-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Video to Gif</name>
+	<unique-id>1510960570283439-3</unique-id>
+	<command>thunar-video-to-gif.sh -f %f</command>
+	<description></description>
+	<upper>-1</upper>
+	<lower>-1</lower>
+	<patterns>*</patterns>
+	<video-files/>
 </action>
 </actions>

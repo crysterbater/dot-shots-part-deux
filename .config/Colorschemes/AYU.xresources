@@ -8,20 +8,20 @@
 *.color8:       #323232
 
 ! red
-*.color1:       #ff3333
+*.color1:       #e06c75
 *.color9:       #ff6565
 
 ! green
-*.color2:       #b8cc52
-*.color10:      #eafe84
+*.color2:       #80BFA7
+*.color10:      #98c379
 
 ! yellow
-*.color3:       #e7c547
-*.color11:      #fff779
+*.color3:       #d19a66
+*.color11:      #c678dd
 
 ! blue
 *.color4:       #36a3d9
-*.color12:      #68d5ff
+*.color12:      #56b6c2
 
 ! magenta
 *.color5:       #f07178
@@ -29,7 +29,7 @@
 
 ! cyan
 *.color6:       #95e6cb
-*.color14:      #c7fffd
+*.color14:      #e06c75
 
 ! white
 *.color7:       #ffffff

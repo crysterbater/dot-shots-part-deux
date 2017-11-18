@@ -28,6 +28,9 @@ xfce4-power-manager &
 # kde connect
 indicator-kdeconnect &
 
+## Clipboard Manager
+#(sleep 3; clipit) &
+
 # polybar
 (sleep 1; /home/pringle/.config/polybar/polybar-chooser &
 #(sleep 1; polybar --config=$HOME/.config/polybar/pepperg-config top) &

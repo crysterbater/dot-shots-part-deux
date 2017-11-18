@@ -40,7 +40,7 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>flattz</name>
+    <name>Adaptish</name>
     <titleLayout>DSLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -56,7 +56,7 @@
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>Sans</name>
-      <size>13</size>
+      <size>11</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -73,16 +73,16 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Grotesque MT</name>
-      <size>7</size>
+      <name>CodingFontTobi</name>
+      <size>8</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Futura PT Light</name>
+      <name>Neue Haas Unica Pro</name>
       <size>7</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -239,7 +239,7 @@
     <keybind key="W-w"><action name="Execute"><command>rofi -modi "window,run,ssh,Workspaces:rofi_workspaces.sh" -show Workspaces
     <keybind key="W-t"><action name="Execute"><command>termite</command></action></keybind>
 </command></action></keybind>
-    <keybind key="W-l"><action name="Execute"><command>slimlock</command></action></keybind>
+    <keybind key="W-l"><action name="Execute"><command>skippy-xd</command></action></keybind>
     <keybind key="W-e"><action name="Execute"><command>xdotool search --name polybar-default_eDP-1 behave %@ mouse-enter exec --sync "$XDG_CONFIG_HOME"/polybar/autohide show</command></action></keybind>
     <keybind key="W-m"><action name="Execute"><command>gksu /bin/mbmain</command></action></keybind>
     <keybind key="W-h"><action name="Execute"><command>urxvt -T 'htop task manager' -e htop</command></action></keybind>

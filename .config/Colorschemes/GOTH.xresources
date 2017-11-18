@@ -1,6 +1,6 @@
 ! special
-*.foreground:   #98d1ce
-*.background:   #0f1214
+*.foreground:   #F2F2F2
+*.background:   #1B1B1F
 *.cursorColor:  #98d1ce
 
 ! black
@@ -28,8 +28,8 @@
 *.color13:      #79c7b6
 
 ! cyan
-*.color6:       #5cc7aa
-*.color14:      #599caa
+*.color6:       #599caa
+*.color14:      #26a98b
 
 ! white
 *.color7:       #98d1ce
